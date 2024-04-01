@@ -1,6 +1,6 @@
 [package]
 name = "tao"
-version = "0.25.0"
+version = "0.24.0"
 description = "Cross-platform window manager library."
 authors = [
   "Tauri Programme within The Commons Conservancy",
@@ -116,7 +116,7 @@ scopeguard = "1.2"
 png = "0.17"
 
 [target."cfg(any(target_os = \"linux\", target_os = \"dragonfly\", target_os = \"freebsd\", target_os = \"openbsd\", target_os = \"netbsd\"))".dependencies]
-gtk = "0.16"
+gtk = "0.18"
 gdkx11-sys = "0.18"
 gdkwayland-sys = "0.18.0"
 x11-dl = "2.21"
